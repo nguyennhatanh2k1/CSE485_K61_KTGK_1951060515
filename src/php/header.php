@@ -11,4 +11,4 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <h1 class="bg-warning">PHP - MySQL Example</h1>
+    <h1 class="bg-warning text-center">Hệ thống quản lí thi trắc nghiệm trực tuyến</h1>
