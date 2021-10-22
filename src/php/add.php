@@ -1,12 +1,9 @@
 <?php
-    include '../header.php';
-    include '../config.php';
+    include './header.php';
+    include './config.php';
 ?>
     <main class="container">
         <div class="bg-gray-light ">
-            <h4 class="px-5 mx-4 fw-bolder d-flex justify-content-center ">
-            HỆ THỐNG QUẢN LÝ THI TRẮC NGHIỆM TRỰC TUYẾN
-            </h4>
         </div>
         <form action="process-add.php" method="post">
 
@@ -65,5 +62,5 @@
 </main>
     
 <?php
-    include '../footer.php';
+    include './footer.php';
 ?>
