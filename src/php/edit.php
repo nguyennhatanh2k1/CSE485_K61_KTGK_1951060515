@@ -2,7 +2,7 @@
     include '../header.php';
     include '../config.php';
     $id = $_GET['id'];
-    $sql = "select * from tb_test";
+    $sql = "select * from tb_test WHERE  id ='$id'";
     $result_current = mysqli_query($conn, $sql);
     $row_current = mysqli_fetch_assoc($result_current);
     $sql = "SELECT * FROM exams WHERE  id ='$id'";
@@ -13,7 +13,7 @@
 <main class="container">
     <div class="bg-gray-light ">
         <h4 class="px-5 mx-4 fw-bolder d-flex justify-content-center ">
-            HỆ THỐNG QUẢN LÝ NGÂN HÀNG MÁU
+            HỆ THỐNG QUẢN LÝ BÀI KIỂM TRA
         </h4>
     </div>
     <form action="process-add.php" method="post">
